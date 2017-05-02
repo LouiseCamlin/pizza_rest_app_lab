@@ -5,10 +5,17 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <nav>
-    <a href="/pizzas">All Pizzas</a>
-    <a href="/pizzas/new">Create new order</a>
-  </nav>
+
+   <nav>
+      <ul>
+        <li><a href="/pizzas">All Pizzas</a></li>
+        <li><a href="/pizzas/new">Create new order</a></li>
+      </ul>
+    </nav>
+
   <%= yield %>
 </body>
+<footer>
+  <img src="http://gifrific.com/wp-content/uploads/2012/10/Walter-White-Throws-Pizza-on-Roof-Breaking-Bad.gif">
+</footer>
 </html>
